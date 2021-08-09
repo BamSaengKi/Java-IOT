@@ -6,11 +6,11 @@ import org.opentutorials.iot.Lighting;
 import org.opentutorials.iot.Security;
 
 public class OkJavaGoingHomeinput {
-
-	public static void main(String[] args) {
+// args = 매개변수, parameter
+	public static void main(String[] args) {  
 		
-		String id = JOptionPane.showInputDialog("ENTER A ID");
-		String bright = JOptionPane.showInputDialog("ENTER A Bright Level");
+		String id = args[0];
+		String bright = args[1];
 		
 		
 		// Elevator call
